@@ -24,3 +24,5 @@ integrado una calculadora donde el endDate fueron restados por el starDate defin
 definiendo asi el precio total a pagar. Para el componente barra se establecen inicialmente que no se puedan observar enlavces si el usuario no está ioggeado por ello se debe registrar como primero
 en el botón signup; una vez el regisrto de hace satisactorio la pagiana lo redirija a la interfaz del loggin para que el usuario pueda ingresar; una vez loguedo la pagian lo reedirige  a
 al home diferente mostrando un saludo de bienvenida con el nombre de usuario y activando los enlaces de los componentes que dispone la aplicación.
+Para poner en funcionamiento la simulación de este aplicativo se debe ejecutar de manera simultánea e independiente dos consolas, una para conectarme a frontend con el
+comando npm start y para el backend con el comando npm run dev, y se necesita tener instalado mongo db para la creación e instalación de la base de datos.
